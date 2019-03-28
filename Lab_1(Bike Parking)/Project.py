@@ -21,12 +21,12 @@ class Mio:
         y = self.parking_lot.get(name_2)
         lat = (x.latitude - y.latitude)**2
         lon = (x.longitude - y.longitude)**2
-        print math.sqrt(lat+lon)
+        print "Distance between %s and %s : %s" %(name_1,name_2,math.sqrt(lat+lon))
 
     def report_Bikes(self):
        r = self.parking_lot.values()
        for x in r:
-           print x.bikes
+           print "Station Name: %s - bikes %s" % (x.name,x.bikes)
 
     def report_Parking(self):
        r = self.parking_lot.values()
