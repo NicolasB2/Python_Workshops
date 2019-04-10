@@ -1,50 +1,40 @@
-from model import *
+def gui():
 
-class clinic:
-    def add_vaccine(self,patient):
-        if patient.age==0:
-            patient.add_vaccine(vaccine(0,"BCG"))
-            patient.add_vaccine(vaccine(0,"Hepatitis B-Primera dosis"))
+   stop = True
+   while(stop):
 
-        if patient.age==2:
-            patient.add_vaccine(vaccine(0,"Polio-Primera dosis"))
-            patient.add_vaccine(vaccine(0,"Pentavallente"))
+        print ("")
+        print ("-> Precione m para regresar al menu")
+        print ("-> Precione s para salir")
 
-            if patient.stratum==1 & patient.stratum==2:
-                patient.add_vaccine(vaccine(94000,"NeumoCoco"))
-                patient.add_vaccine(vaccine(20000,"RotaVirus"))
-            if patient.stratum==3 & patient.stratum==4:
-                patient.add_vaccine(vaccine(154000,"NeumoCoco"))
-                patient.add_vaccine(vaccine(64000,"RotaVirus"))
-            if patient.stratum==5 & patient.stratum==6:
-                patient.add_vaccine(vaccine(194000,"NeumoCoco"))
-                patient.add_vaccine(vaccine(110000,"RotaVirus"))
+        answer = raw_input()
 
-        if patient.age==4:
-            patient.add_vaccine(vaccine(0,"Polio"))
+        if answer == 's':
+           stop =False
 
-            if patient.stratum==1 & patient.stratum==2:
-                patient.add_vaccine(vaccine(0,"Pentavalente"))
-                patient.add_vaccine(vaccine(94000,"NeumoCoco"))
-                patient.add_vaccine(vaccine(15000,"RotaVirus"))
-            if patient.stratum==3 & patient.stratum==4:
-                patient.add_vaccine(vaccine(0,"Pentavalente"))
-                patient.add_vaccine(vaccine(154000,"NeumoCoco"))
-                patient.add_vaccine(vaccine(59000,"RotaVirus"))
-            if patient.stratum==5 & patient.stratum==6:
-                patient.add_vaccine(vaccine(35000,"Pentavalente"))
-                patient.add_vaccine(vaccine(194000,"NeumoCoco"))
-                patient.add_vaccine(vaccine(105000,"RotaVirus"))
+        if answer == 'm':
+            menu()
+            answer = raw_input()
 
-        if patient.age==6:
-            patient.add_vaccine(vaccine(0,"Polio"))
+        if answer == '1':
+            print ("\n****************Consulta de pacientes***************")
+            print ("resultado de la consultta\nmuestra datos del paciente\nby nicolas\nthanks")
 
-            if patient.stratum==1 & patient.stratum==2:
-                patient.add_vaccine(vaccine(0,"Pentavalente"))
-                patient.add_vaccine(vaccine(0,"Influenza"))
-            if patient.stratum==3 & patient.stratum==4:
-                patient.add_vaccine(vaccine(18000,"Pentavalente"))
-                patient.add_vaccine(vaccine(50000,"Influenza"))
-            if patient.stratum==5 & patient.stratum==6:
-                patient.add_vaccine(vaccine(35000,"Pentavalente"))
-                patient.add_vaccine(vaccine(50000,"Influenza"))
+        if answer == '2':
+            print ("\n*********Reporte de vacunas de un paciente**********")
+
+        if answer == '3':
+            print ("*************totales recibos por cliente**************")
+
+
+def menu():
+    print ("\n*********************** MENU ***********************")
+    print ("-> 1. Consultar pacientes")
+    print ("-> 2. Reporte de vacunas de un paciente")
+    print ("-> 3. totales recibos por cliente")
+    print ("")
+    print ("Digite el numero de la opcion\n")
+
+
+
+x = gui();

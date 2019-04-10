@@ -9,7 +9,7 @@ class patient:
         print("Name: %s\nAge: %s\nScheme")%(self.name,self.age,self.scheme.report)
 
     def add_vaccine(self,vaccine):
-        scheme.add_Vaccine(vaccine);
+        scheme.add_Vaccine(vaccine)
 
 class scheme:
     def __init__(self):
