@@ -2,7 +2,6 @@ import math
 
 from Parking import *
 
-
 class Mio:
     def __init__(self):
         self.parking_lot = {}

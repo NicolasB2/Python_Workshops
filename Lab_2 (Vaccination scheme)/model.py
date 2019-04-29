@@ -1,34 +1,40 @@
 class clinic:
     def __init__(self):
-        self.Patients = {}
+        self.patients = {}
 
     def addPatient(self,patient):
-        self.Patients[patient.name] = patient
+        self.patients[patient.name] = patient
+
+    def findPatient(self,name):
+        return self.patients.get(name)
 
 class patient:
-    def __init__(self,name,age,stratum,scheme):
+    def __init__(self,name,age,stratum):
         self.name = name
         self.age = age
-        self.scheme = scheme
-        self.stratum= stratum
-
-    def report(self):
-        print("Name: %s\nAge: %s\nScheme")%(self.name,self.age,self.scheme.report)
+        self.stratum = stratum
+        self.scheme = scheme()
 
     def add_vaccine(self,vaccine):
-        scheme.add_Vaccine(vaccine)
+        self.scheme.add_Vaccine(vaccine)
+
+    def report(self):
+        return "Name: %s \nAge: %s \nScheme: %s\n" %(self.name,self.age,self.scheme.vaccines.__len__())
+
+    def reportScheme(self):
+        return self.scheme.report()
 
 class scheme:
     def __init__(self):
         self.vaccines = []
 
-    def add_Vaccine(self,vacinne):
+    def add_Vaccine(self,vaccine):
         self.vaccines.append(vaccine)
 
     def report(self):
         r = ""
         for x in self.vaccines:
-            r += x.report+"\n"
+            r += "\t"+x.report()+"\n"
         return r;
 
 class vaccine:
@@ -37,4 +43,4 @@ class vaccine:
         self.name = name
 
     def report(self):
-        return ("Name: %s\nCost: %s")%(self.name,self.cost)
+        return ("Name: %s Cost: %s")%(self.name,self.cost)
