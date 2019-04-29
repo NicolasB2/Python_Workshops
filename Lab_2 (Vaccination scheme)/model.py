@@ -1,3 +1,10 @@
+class clinic:
+    def __init__(self):
+        self.Patients = {}
+
+    def addPatient(self,patient):
+        self.Patients[patient.name] = patient
+
 class patient:
     def __init__(self,name,age,stratum,scheme):
         self.name = name

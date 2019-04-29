@@ -1,40 +1,49 @@
-def gui():
+from scheme import *
 
-   stop = True
-   while(stop):
+class gui:
 
-        print ("")
-        print ("-> Precione m para regresar al menu")
-        print ("-> Precione s para salir")
+   def __init__(self):
+        self.clinic = clinic()
 
-        answer = raw_input()
+   def view(self):
+       stop = True
+       while(stop):
 
-        if answer == 's':
-           stop =False
+            print ("")
+            print ("-> Precione m para ir menu")
+            print ("-> Precione s para salir")
 
-        if answer == 'm':
-            menu()
             answer = raw_input()
 
-        if answer == '1':
-            print ("\n****************Consulta de pacientes***************")
-            print ("resultado de la consultta\nmuestra datos del paciente\nby nicolas\nthanks")
+            if answer == 's':
+               stop =False
 
-        if answer == '2':
-            print ("\n*********Reporte de vacunas de un paciente**********")
+            if answer == 'm':
+                menu()
+                answer = raw_input()
 
-        if answer == '3':
-            print ("*************totales recibos por cliente**************")
+            if answer == '1':
+                print ("\n****************Consulta de pacientes***************")
+
+            if answer == '2':
+                print ("\n**************** Agregar Cliente ***************")
+
+            if answer == '3':
+                print ("\n**************** Vacunar Cliente ***************")
+                
+            if answer == '4':
+                print ("\n**************** Reporte Cliente ***************")
 
 
 def menu():
     print ("\n*********************** MENU ***********************")
     print ("-> 1. Consultar pacientes")
-    print ("-> 2. Reporte de vacunas de un paciente")
-    print ("-> 3. totales recibos por cliente")
-    print ("")
+    print ("-> 2. Agregar Cliente")
+    print ("-> 3. Vacunar Cliente")
+    print ("-> 4. Reporte Cliente")
     print ("Digite el numero de la opcion\n")
 
 
 
 x = gui();
+x.view();
