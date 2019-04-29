@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11f1316e-6f7a-4ce1-bc29-c411c6db66c8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Lab_1 (Bike Parking)/Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_1 (Bike Parking)/Project.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab_3 (Car Dealership)/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab_2 (Vaccination scheme)/control.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_2 (Vaccination scheme)/control.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab_2 (Vaccination scheme)/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_2 (Vaccination scheme)/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab_2 (Vaccination scheme)/scheme.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_2 (Vaccination scheme)/scheme.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,35 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab_2 (Vaccination scheme)/model.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-98">
-              <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab_2 (Vaccination scheme)/scheme.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Lab_2 (Vaccination scheme)/control.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-532">
-              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -95,12 +66,7 @@
             <path>
               <item name="Python_Workshops" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python_Workshops" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab_1 (Bike Parking)" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python_Workshops" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python_Workshops" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab_2 (Vaccination scheme)" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab_3 (Car Dealership)" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -292,13 +258,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19494048" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19494048" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.342723" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.342723" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -369,7 +334,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab_2 (Vaccination scheme)/control.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-532">
+        <state relative-caret-position="437">
           <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
         </state>
       </provider>

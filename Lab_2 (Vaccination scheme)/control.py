@@ -26,7 +26,7 @@ class gui:
             try:
 
                 answer = raw_input()
-                
+
                 if answer == 's':
                    stop =False
 
