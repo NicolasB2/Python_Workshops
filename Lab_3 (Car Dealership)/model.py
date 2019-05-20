@@ -1,3 +1,6 @@
+from distutils.msvc9compiler import query_vcvarsall
+
+
 class Dealership:
     def __init__(self,nit,name,address,phone):
         self.freeId = 0
@@ -23,8 +26,8 @@ class Dealership:
     def find_Automobile(self,model):
         return self.automobiles.get(model)
 
-    def increase_quantity(self,model):
-        self.automobiles.get(model).quantity+=1
+    def increase_quantity(self,model,quantity):
+        self.automobiles.get(model).quantity+= quantity
 
     def decrease_quantity(self,model):
         self.automobiles.get(model).quantity-=1
@@ -33,9 +36,16 @@ class Dealership:
         self.freeId+=1
         return self.freeId
 
-    def generate_Plan(self,auto,startDate,endDate,numClients,type):
+    def add_Client_to_Plan(self,idClient,idPlan):
+        c = self.find_Client(idClient)
+        p = self.find_Plan(idPlan)
+        p.add_Client(c)
+
+    def generate_Plan(self,auto,startYear,startMonth,numClients,type):
+        a = self.find_Automobile(auto)
         x = self.next_Free_Id()
-        f  = Financing_plan(x,auto,startDate,endDate,numClients,type)
+        t = generate(type)
+        f = Financing_plan(x,a,startYear,startMonth,numClients,t)
         self.plans[x]=f
 
     def find_Plan(self,id):
@@ -46,18 +56,24 @@ class Dealership:
 
 
 class Financing_plan:
-    def __init__(self,id,auto,startDate,endDate,numClients,type):
+    def __init__(self,id,auto,startYear,startMonth,numClients,type):
         self.id=id
         self.auto=auto
-        self.startDate = startDate
-        self.endDate= endDate
+        self.startYear = startYear
+        self.startMonth = startMonth
         self.numClients=numClients
-        self.type_plan = generate(type)
+        self.type_plan = type
         self.clients = {}
 
-    def add_Cliente(self,id,name,bornDate,salary,phone,address,email):
-        c = Client(id,name,bornDate,salary,phone,address,email)
-        self.clients[id] = c
+        months = self.auto.price / type.fee
+        months += self.startMonth
+        years = months%12
+        self.endYear = self.startYear+years
+        self.endMonth = months - (12*years)
+        return id
+
+    def add_Client(self,client):
+        self.clients[client.id] = client
 
     def find_Client(self,id):
         return self.clients.get(id)

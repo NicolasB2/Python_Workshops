@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11f1316e-6f7a-4ce1-bc29-c411c6db66c8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab_3 (Car Dealership)/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_3 (Car Dealership)/model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab_3 (Car Dealership)/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_3 (Car Dealership)/view.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,8 +17,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lab_3 (Car Dealership)/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="113" column="69" lean-forward="true" selection-start-line="113" selection-start-column="22" selection-end-line="113" selection-end-column="69" />
+            <state relative-caret-position="407">
+              <caret line="43" column="68" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -24,17 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Lab_3 (Car Dealership)/view.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="75" column="9" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab_2 (Vaccination scheme)/control.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="73" selection-start-line="73" selection-end-line="74" selection-end-column="9" />
+            <state relative-caret-position="503">
+              <caret line="90" column="67" selection-start-line="90" selection-start-column="67" selection-end-line="90" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -290,6 +283,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14211309" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -364,24 +358,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab_3 (Car Dealership)/model.py">
+    <entry file="file://$PROJECT_DIR$/Lab_2 (Vaccination scheme)/control.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="113" column="69" lean-forward="true" selection-start-line="113" selection-start-column="22" selection-end-line="113" selection-end-column="69" />
+        <state relative-caret-position="197">
+          <caret line="58" column="49" lean-forward="true" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab_2 (Vaccination scheme)/control.py">
+    <entry file="file://$PROJECT_DIR$/Lab_3 (Car Dealership)/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="73" selection-start-line="73" selection-end-line="74" selection-end-column="9" />
+        <state relative-caret-position="407">
+          <caret line="43" column="68" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab_3 (Car Dealership)/view.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="75" column="9" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
+        <state relative-caret-position="503">
+          <caret line="90" column="67" selection-start-line="90" selection-start-column="67" selection-end-line="90" selection-end-column="67" />
         </state>
       </provider>
     </entry>
