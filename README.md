@@ -2,7 +2,7 @@
 <br>
 
 *Workshops about python carried out in sixth semester*
-<br><br/>
+<br>
 
 **laboratories:**
 <br>
