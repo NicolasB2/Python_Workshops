@@ -1,7 +1,7 @@
 # Python_Workshops
 <br>
 
-*Workshops about python carried out in sixth semester*
+*Workshops about python carried out in fifth semester*
 <br>
 
 **laboratories:**
